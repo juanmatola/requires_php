@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteRule ^home$ index.php [L]
+RewriteRule ^about$ about.php [L]
+
+Options All -Indexes
+</IfModule>
